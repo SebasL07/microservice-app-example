@@ -23,5 +23,6 @@ steps:
 - script: |
     cd frontend
     npm install
+    npm install chalk
     npm run build
   displayName: 'npm install and build'
