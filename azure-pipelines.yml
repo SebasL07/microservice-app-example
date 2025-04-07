@@ -24,5 +24,6 @@ steps:
     cd frontend
     rm -f package-lock.json
     npm install
+    npm install chalk
     npm run build
   displayName: 'npm install and build'
